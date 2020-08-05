@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Youtube" parallel="methods" verbose="2" thread-count="5">
+
+    <test name="chrome"  >
+        <classes>
+            <class name="jobsInHouston.Pages.Tests.JobSearchTest"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
